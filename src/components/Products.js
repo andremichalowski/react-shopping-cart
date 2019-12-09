@@ -4,13 +4,15 @@ import React from 'react';
 import Product from './Product';
 
 const Products = props => {
+	// ??? IMPORT VALUES FROM PRODUCT CONTEXT/USE 'useContext':
+	const { products, addItem } = useContext(ProductContext)
 	return (
 		<div className="products-container">
-			{props.products.map(product => (
+			{products.map(product => (
 				<Product
 					key={product.id}
 					product={product}
-					addItem={props.addItem}
+					addItem={addItem}
 				/>
 			))}
 		</div>

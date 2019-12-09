@@ -58,7 +58,7 @@ Follow these steps for completing your project.
 
 **Step 1 - Add item functionality**
 
-[] - In `App.js` there is a function called `addItem`. Finish writing the logic in this function to be able to add the given item to the shopping cart
+[x] - In `App.js` there is a function called `addItem`. Finish writing the logic in this function to be able to add the given item to the shopping cart
 
 **STEP 2 - Creating ProductContext**
 

@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 //REFACTORING USING CONTEXT INSTEAD OF PROPS
 //1. Import context
 	// ^^^ A. import useContext
-	// B. import CartContext >>>
+	// B. import CartContext
 import { CartContext } from '../contexts/CartContext';
 
 // Components
